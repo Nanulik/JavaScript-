@@ -140,3 +140,27 @@ if (solved) {
 }
 //Mr. Kalehoff did it in the ballroom with the poison!
 ////////////////////////////////////////////////////////////
+/*
+ * Programming Quiz: Checking your Balance (3-5)
+ */ 
+var balance = 325.00;
+var checkBalance = false;
+var isActive = true;
+
+
+if (checkBalance === false ) {
+    console.log("Thank you. Have a nice day!");
+}
+    else if  (isActive === true && balance > 0 ) {
+        console.log("Your balance is $" + balance.toFixed(2) + ".");
+    }
+    else if (!isActive ) {
+        console.log("Your account is no longer active.");
+    }
+    else if (balance === 0 ) {
+        console.log("Your account is empty.");
+    }
+    else if (balance < 0 ) { 
+        console.log("Your balance is negative. Please contact bank.")
+    }
+    /////////////////////////////
